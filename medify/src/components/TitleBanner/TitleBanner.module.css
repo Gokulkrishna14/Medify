@@ -1,0 +1,17 @@
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-blue);
+    height: 40px;
+    color : var(--color-white);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media (max-width: 720px) {
+    .banner{
+        height: auto;
+        font-size: 10px;
+    }
+}
